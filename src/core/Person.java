@@ -21,6 +21,7 @@ public abstract class Person extends Human{
         this.lname = lname;
     }
 
+
     public abstract int getSocialSecurityNumber();
 
     public abstract void setSocialSecurityNumber(int socialSecurityNumber);

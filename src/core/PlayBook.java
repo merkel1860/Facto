@@ -12,6 +12,9 @@ public class PlayBook {
         Student student = new Student("JB-007");
         student.setLname("James");
         student.setFname("Bond");
+        student.setHeight((float) 1.75);
+        student.setWeight((float) 128.00);
+
 
     }
 
