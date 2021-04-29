@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>core</OriginalElement>
+  <nodes>
+    <node x="-186.0" y="408.0">core.PlayBook</node>
+    <node x="-142.0" y="235.0">core.Student</node>
+    <node x="248.0" y="12.0">core.Person</node>
+    <node x="-51.0" y="-12.0">core.Human</node>
+    <node x="-317.5" y="16.0">core.Animal</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="core.Person" target="core.Human">
+      <point x="0.0" y="-61.0" />
+      <point x="0.0" y="94.5" />
+    </edge>
+    <edge source="core.Student" target="core.Person">
+      <point x="0.0" y="-61.5" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="core.Human" target="core.Animal">
+      <point x="0.0" y="-94.5" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="core.PlayBook" target="core.Student">
+      <point x="66.5" y="-60.5" />
+      <point x="13.5" y="383.0" />
+      <point x="-8.5" y="383.0" />
+      <point x="44.5" y="61.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="133.00000000000006" y="244.0" />
+  <SelectedNodes>
+    <node>core.Person</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
